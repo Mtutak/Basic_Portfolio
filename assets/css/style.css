@@ -1,9 +1,13 @@
 html, body {
 	width:100%;
-	height:100%;
 	color:#777777;
 	background-color: #ecebeb;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+body {
+	background-image: url("../images/cork-wallet.png");
+	background-repeat: repeat;
 }
 
 .clearfix:after {
@@ -209,11 +213,17 @@ input, textarea {
 	box-sizing: border-box;
 	position:relative;
 	display:inline-block;
+	margin:0 auto;
 
 }
 
 .folio {
 	width:200px;
+}
+
+.midfolio {
+	margin:0 auto;
+	text-align: center;
 }
 
 .toplayer {
@@ -233,6 +243,7 @@ input, textarea {
 .toplayer a {
 	color:white;
 }
+
 
 /* Hover Animation */
 h1:hover, #logo:hover {
